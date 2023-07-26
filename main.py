@@ -206,8 +206,8 @@ class sharp():
             # pyMeow.draw_texture(logo, rect[0]+2, rect[1]+2, pyMeow.get_color(""), 0, 0.5)
 
             # Modules
-            pyMeow.draw_text(f"Left", rect[0]+self.config["overlay"]["x"]+2, rect[1]+self.config["overlay"]["y"]+2, 15, pyMeow.get_color("orange"))
-            pyMeow.draw_text(f"Right", rect[0]+self.config["overlay"]["x"]+2, rect[1]+self.config["overlay"]["y"]+16.9, 15, pyMeow.get_color("orange"))
+            pyMeow.draw_text(f"L", rect[0]+self.config["overlay"]["x"]+2, rect[1]+self.config["overlay"]["y"]+2, 15, pyMeow.get_color("orange"))
+            pyMeow.draw_text(f"R", rect[0]+self.config["overlay"]["x"]+2, rect[1]+self.config["overlay"]["y"]+16.9, 15, pyMeow.get_color("orange"))
 
             # Modules Status
             pyMeow.draw_text(f"[Enabled]" if self.config["left"]["enabled"] else "[Disabled]", rect[0]+self.config["overlay"]["x"]+40, rect[1]+self.config["overlay"]["y"]+2, 15, pyMeow.get_color("green") if self.config["left"]["enabled"] else pyMeow.get_color("red"))
