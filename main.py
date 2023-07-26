@@ -1,4 +1,4 @@
-version = "1.0"
+version = "2"
 
 import win32api, win32con, win32gui, win32process, psutil, time, threading, random, winsound, os, json, subprocess, sys, asyncio, itertools, pyMeow, base64, re
 import dearpygui.dearpygui as dpg
@@ -684,7 +684,7 @@ if __name__ == "__main__":
         def toggleDiscordRPC(id: int, value: bool):
             sharpClass.config["misc"]["discordRichPresence"] = value
 
-        dpg.create_viewport(title=f"[v{version}] sharp - clicker.best", width=810, height=435)
+        dpg.create_viewport(title=f"[john_{version}] the fleepers preferred clicker.", width=810, height=435)
 
         with dpg.window(tag="Primary Window"):
             with dpg.tab_bar():
